@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #cb7f98;
+    color: #a30f0f;
+    line-height: 1.6;
+}
+
+
+.BM-navbar {
+    box-shadow: 0 4px 10px rgba(121, 101, 109, 0.3);
+}
+
+
+.BM-hero {
+    height: 70vh;
+    background-image: url('..img/PORTFOLIO');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    text-shadow: 2px 2px 6px rgba(162, 29, 80, 0.5);
+}
+
+.BM-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.BM-hero p {
+    font-size: 1.5rem;
+}
+
+
+.BM-btn {
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 500;
+}
+
+
+.BM-feature h3,
+.BM-card h5 {
+    color: #742d2d;
+    font-weight: 600;
+}
+
+
+.BM-card {
+    text-align: center; 
+}
+
+.BM-card img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+.BM-card img:hover {
+    transform: scale(1.05);
+}
+
+.BM-team-img {
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s;
+}
+
+.BM-team-img:hover {
+    transform: scale(1.1);
+}
+
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+            background-color:rgba(97, 34, 58, 0.5)}
+
+.BM-table th {
+    background-color: #852366;
+    color: #110c0c;
+}
+
+.BM-table tbody tr:hover {
+    background-color: #ffe6e6;
+}
+
+
+.BM-form input,
+.BM-form textarea {
+    border-radius: 10px;
+}
+
+.BM-form button {
+    margin-top: 10px;
+}
+
+
+.accordion-button {
+    background-color: #e1acc1;
+    color: #a22b7c;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #833766;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .BM-hero h1 {
+        font-size: 2rem;
+    }
+
+    .BM-hero p {
+        font-size: 1rem;
+    }
+}
+.img-fluid {
+    max-width: 60%;
+    height: auto;}
+    
+       p{ margin-top: 0;
+        margin-bottom: 1em;}
+
+        .w-50 {
+    width: 40% !important;
+}
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
